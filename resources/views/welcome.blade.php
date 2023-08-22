@@ -3,13 +3,14 @@
 @section('content')
 
 
-<h1>lgum titulo</h1>
+
+<h1>Algum titulo</h1>
 <img src="/img/banner.jpg" alt="">
 @if (10 > 15)
 <p>A condição é true</p>
 @endif
 
-<p>{ $noe }}</p>
+<p>{{ $nome }}</p>
 @if ($nome == 'Pedro')
 <p>O nome é Pedro</p>
 @elseif($nome == 'Mateus')
